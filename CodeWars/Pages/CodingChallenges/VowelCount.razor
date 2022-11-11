@@ -1,0 +1,59 @@
+﻿@page "/vowelcount"
+
+<h3>Vowel Count</h3>
+<p>This application counts the number of vowels in a string</p>
+
+<div>
+
+    @*First row for number entry*@
+    <div class="row">
+        <div class="col-sm-4">
+            <input placeholder="Enter your string here" @bind="str" />
+        </div>        
+    </div>
+    <br>
+
+    @*2nd row for button*@
+    <div class="row">
+        <div class="col-sm-4">
+            <button @onclick="GetVowelCount" class="btn btn-primary">Click for vowel count </button>
+        </div>
+    </div>
+    <br>
+  
+
+    @*3rd row for results*@
+    <div class="row">
+        <div class="col-sm-4">
+            <input readonly @bind="finalResult" />
+        </div>
+    </div>
+
+</div>
+
+@code {
+
+    string str ="";
+    string finalResult = "";    
+
+    // This method takes the user input and counts the number of vowels in the given string
+    // It works iteratively
+        private void GetVowelCount()
+    {
+            str = str.ToLower();
+            int count = 0;
+
+            for (int i = 0; i < str.Length; i++)
+            {
+                if (str[i] == 'a' ||
+                    str[i] == 'e' ||
+                    str[i] == 'i' ||
+                    str[i] == 'o' ||
+                    str[i] == 'u')
+                {
+                    count++;
+                }
+            }
+            finalResult = count.ToString();
+    }
+}

@@ -1,0 +1,90 @@
+﻿@page "/shorterreverselonger"
+
+<h3>Shorter Reverse Longer</h3>
+<p>This is a coding challenge from the Code Wars website</p>
+<p>
+    <a href="https://www.codewars.com/kata/54557d61126a00423b000a45/train/csharp">
+        https://www.codewars.com/kata/54557d61126a00423b000a45/train/csharp
+    </a>
+</p>
+
+@*Description of the challenge*@
+<p>
+    Given two strings a and b, return a string of the form: shorter+reverse(longer)+shorter. 
+    <br><br>
+    The shortest string will be the prefix and suffix of the longest word, reversed.
+    <br><br>
+    Strings a and b may be empty, but not null.
+    <br><br>
+    If a and b have the same length, treat a as the longer string. 
+    <br><br>
+</p>
+
+@*First row for 1st string entry*@
+<div class="row">
+    <div class="col-sm-4">
+        <input placeholder="Enter your string here" @bind="a"/>
+    </div>
+</div>
+<br>
+
+@*Second row for 2nd string entry*@
+<div class="row">
+    <div class="col-sm-4">
+        <input placeholder="Enter your string here" @bind="b" />
+    </div>
+</div>
+<br>
+
+@*Third row for the button*@
+<div class="row">
+    <div class="col-sm-4">
+        <button @onclick="ShorterReverseLongerMethod" class="btn btn-primary">Click solve the challenge </button>
+    </div>
+</div>
+<br>
+
+@*Fourth row for results*@
+<div class="row">
+    <div class="col-sm-4">
+        <input readonly @bind="finalResult"/>
+    </div>
+</div>
+
+@*
+Code starts here*@
+@code {
+
+    // Global variables
+    string a = "";
+    string b = "";
+    string finalResult = "";
+
+    private void ShorterReverseLongerMethod()
+    {
+        // Local variables 
+        int longest = a.Length;
+        int shortest = b.Length;
+        string temp = "";
+
+        // Check for nulls
+        if (string.IsNullOrEmpty(a))
+        {
+            a = "";
+        }
+
+        if (string.IsNullOrEmpty(b))
+        {
+            b = "";
+        }        
+
+        if (shortest > longest)
+        {
+            temp = temp + a;
+            a = b;
+            b = temp;
+        }
+
+         finalResult = string.Concat(b, string.Concat(a.Reverse()), b);
+    }
+}

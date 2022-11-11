@@ -1,0 +1,70 @@
+﻿<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">CodeWars</a>
+        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</div>
+
+<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
+    <nav class="flex-column">
+
+        @*Home menu item*@
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="oi oi-home" aria-hidden="true"></span> Home
+            </NavLink>
+        </div>
+
+        @*CV menu item*@
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="somewhere">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> CV
+            </NavLink>
+        </div>
+
+        @*Coding Challenges menu and sub menus*@
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" @onclick="()=>expandSubNavCodingChallenges = !expandSubNavCodingChallenges">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Coding Challenges
+            </NavLink>
+            @if (expandSubNavCodingChallenges)
+            {
+                <NavLink class="nav-link" href="shorterreverselonger">
+                    <span>Shorter Reverse Longer</span>
+                </NavLink>
+                <NavLink class="nav-link" href="vowelcount">
+                    <span> Vowel count</span>
+                </NavLink>
+            }
+        </div>    
+
+        @*Tutorial Menu and Submenu options*@
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" @onclick="()=>expandSubNav = !expandSubNav">
+                <span class="oi oi-list-rich" aria-hidden="true"></span> Tutorial Apps
+            </NavLink>
+            @if (expandSubNav)
+            {
+                <NavLink class="nav-link" href="songs">
+                    <span> Song List Database</span>
+                </NavLink>                
+            }
+        </div>
+    </nav>
+</div>
+
+@code {
+    private bool collapseNavMenu = true;
+
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+
+    private bool expandSubNav;
+    private bool expandSubNavCodingChallenges;
+}
