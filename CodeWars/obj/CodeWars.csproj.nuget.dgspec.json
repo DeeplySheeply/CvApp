@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Cian Liddy\\Documents\\WebDev\\MasterApp\\CodeWars\\CodeWars.csproj": {}
+    "C:\\Users\\Cian Liddy\\Documents\\WebDev\\CvApp\\CodeWars\\CodeWars.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Cian Liddy\\Documents\\WebDev\\MasterApp\\CodeWars\\CodeWars.csproj": {
+    "C:\\Users\\Cian Liddy\\Documents\\WebDev\\CvApp\\CodeWars\\CodeWars.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\MasterApp\\CodeWars\\CodeWars.csproj",
+        "projectUniqueName": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\CvApp\\CodeWars\\CodeWars.csproj",
         "projectName": "CodeWars",
-        "projectPath": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\MasterApp\\CodeWars\\CodeWars.csproj",
+        "projectPath": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\CvApp\\CodeWars\\CodeWars.csproj",
         "packagesPath": "C:\\Users\\Cian Liddy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\MasterApp\\CodeWars\\obj\\",
+        "outputPath": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\CvApp\\CodeWars\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

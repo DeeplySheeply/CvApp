@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+8zH2JS+dhwZzT/BHhZhkI7tzxvT9Wj4HJxkZ7NfQHI=",
+  "Hash": "pd2pZJUAVh55BfQTDP6kNsN+VprCdNYRut0oRPSNmnM=",
   "Source": "CodeWars",
   "BasePath": "_content/CodeWars",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "CodeWars\\wwwroot",
       "Source": "CodeWars",
-      "ContentRoot": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\MasterApp\\CodeWars\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\CvApp\\CodeWars\\wwwroot\\",
       "BasePath": "_content/CodeWars",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\MasterApp\\CodeWars\\obj\\Debug\\net6.0\\scopedcss\\bundle\\CodeWars.styles.css",
+      "Identity": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\CvApp\\CodeWars\\obj\\Debug\\net6.0\\scopedcss\\bundle\\CodeWars.styles.css",
       "SourceId": "CodeWars",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\MasterApp\\CodeWars\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\CvApp\\CodeWars\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/CodeWars",
       "RelativePath": "CodeWars.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\MasterApp\\CodeWars\\obj\\Debug\\net6.0\\scopedcss\\bundle\\CodeWars.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\CvApp\\CodeWars\\obj\\Debug\\net6.0\\scopedcss\\bundle\\CodeWars.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\MasterApp\\CodeWars\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CodeWars.bundle.scp.css",
+      "Identity": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\CvApp\\CodeWars\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CodeWars.bundle.scp.css",
       "SourceId": "CodeWars",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\MasterApp\\CodeWars\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\CvApp\\CodeWars\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/CodeWars",
       "RelativePath": "CodeWars.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\MasterApp\\CodeWars\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CodeWars.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\CvApp\\CodeWars\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\CodeWars.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\MasterApp\\CodeWars\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\CvApp\\CodeWars\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "CodeWars",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\MasterApp\\CodeWars\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\CvApp\\CodeWars\\wwwroot\\",
       "BasePath": "_content/CodeWars",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\MasterApp\\CodeWars\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\CvApp\\CodeWars\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "CodeWars",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\MasterApp\\CodeWars\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\CvApp\\CodeWars\\wwwroot\\",
       "BasePath": "_content/CodeWars",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\MasterApp\\CodeWars\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\CvApp\\CodeWars\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "CodeWars",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\MasterApp\\CodeWars\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\CvApp\\CodeWars\\wwwroot\\",
       "BasePath": "_content/CodeWars",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\MasterApp\\CodeWars\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\CvApp\\CodeWars\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "CodeWars",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\MasterApp\\CodeWars\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\CvApp\\CodeWars\\wwwroot\\",
       "BasePath": "_content/CodeWars",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\MasterApp\\CodeWars\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\CvApp\\CodeWars\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "CodeWars",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\MasterApp\\CodeWars\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\CvApp\\CodeWars\\wwwroot\\",
       "BasePath": "_content/CodeWars",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\MasterApp\\CodeWars\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\CvApp\\CodeWars\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "CodeWars",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\MasterApp\\CodeWars\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\CvApp\\CodeWars\\wwwroot\\",
       "BasePath": "_content/CodeWars",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\MasterApp\\CodeWars\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\CvApp\\CodeWars\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "CodeWars",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\MasterApp\\CodeWars\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\CvApp\\CodeWars\\wwwroot\\",
       "BasePath": "_content/CodeWars",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\MasterApp\\CodeWars\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\CvApp\\CodeWars\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "CodeWars",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\MasterApp\\CodeWars\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\CvApp\\CodeWars\\wwwroot\\",
       "BasePath": "_content/CodeWars",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\MasterApp\\CodeWars\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\CvApp\\CodeWars\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "CodeWars",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\MasterApp\\CodeWars\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\CvApp\\CodeWars\\wwwroot\\",
       "BasePath": "_content/CodeWars",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\MasterApp\\CodeWars\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\CvApp\\CodeWars\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "CodeWars",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\MasterApp\\CodeWars\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\CvApp\\CodeWars\\wwwroot\\",
       "BasePath": "_content/CodeWars",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\MasterApp\\CodeWars\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\CvApp\\CodeWars\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "CodeWars",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\MasterApp\\CodeWars\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\CvApp\\CodeWars\\wwwroot\\",
       "BasePath": "_content/CodeWars",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\MasterApp\\CodeWars\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\CvApp\\CodeWars\\wwwroot\\css\\site.css",
       "SourceId": "CodeWars",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\MasterApp\\CodeWars\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\CvApp\\CodeWars\\wwwroot\\",
       "BasePath": "_content/CodeWars",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\MasterApp\\CodeWars\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\CvApp\\CodeWars\\wwwroot\\favicon.ico",
       "SourceId": "CodeWars",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\MasterApp\\CodeWars\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\CvApp\\CodeWars\\wwwroot\\",
       "BasePath": "_content/CodeWars",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",

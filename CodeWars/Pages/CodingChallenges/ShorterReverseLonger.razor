@@ -1,5 +1,6 @@
 ﻿@page "/shorterreverselonger"
 
+@*Title and short introduction*@
 <h3>Shorter Reverse Longer</h3>
 <p>This is a coding challenge from the Code Wars website</p>
 <p>
@@ -39,7 +40,7 @@
 @*Third row for the button*@
 <div class="row">
     <div class="col-sm-4">
-        <button @onclick="ShorterReverseLongerMethod" class="btn btn-primary">Click solve the challenge </button>
+        <button @onclick="ShorterReverseLongerMethod" class="btn btn-primary">Click to solve the challenge </button>
     </div>
 </div>
 <br>
@@ -50,6 +51,10 @@
         <input readonly @bind="finalResult"/>
     </div>
 </div>
+
+@*Final paragraph for link to the source code*@
+<br>
+<p>To view the source code for this challenge please navigate to <a href="https://github.com/DeeplySheeply/CvApp/blob/master/CodeWars/Pages/CodingChallenges/ShorterReverseLonger.razor" target="_blank">https://github.com/DeeplySheeply/CvApp/blob/master/CodeWars/Pages/CodingChallenges/ShorterReverseLonger.razor</a></p>
 
 @*
 Code starts here*@
@@ -78,6 +83,7 @@ Code starts here*@
             b = "";
         }        
 
+        // If statement to solve the challenge
         if (shortest > longest)
         {
             temp = temp + a;

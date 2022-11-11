@@ -9,57 +9,57 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CodeWars
 build_property.RootNamespace = CodeWars
-build_property.ProjectDir = C:\Users\Cian Liddy\Documents\WebDev\MasterApp\CodeWars\
+build_property.ProjectDir = C:\Users\Cian Liddy\Documents\WebDev\CvApp\CodeWars\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Cian Liddy\Documents\WebDev\MasterApp\CodeWars
+build_property.MSBuildProjectDirectory = C:\Users\Cian Liddy\Documents\WebDev\CvApp\CodeWars
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Cian Liddy/Documents/WebDev/MasterApp/CodeWars/App.razor]
+[C:/Users/Cian Liddy/Documents/WebDev/CvApp/CodeWars/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Cian Liddy/Documents/WebDev/MasterApp/CodeWars/Pages/CodingChallenges/CodingChallengeHomepage.razor]
+[C:/Users/Cian Liddy/Documents/WebDev/CvApp/CodeWars/Pages/CodingChallenges/CodingChallengeHomepage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29kaW5nQ2hhbGxlbmdlc1xDb2RpbmdDaGFsbGVuZ2VIb21lcGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Cian Liddy/Documents/WebDev/MasterApp/CodeWars/Pages/CodingChallenges/ShorterReverseLonger.razor]
+[C:/Users/Cian Liddy/Documents/WebDev/CvApp/CodeWars/Pages/CodingChallenges/ShorterReverseLonger.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29kaW5nQ2hhbGxlbmdlc1xTaG9ydGVyUmV2ZXJzZUxvbmdlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Cian Liddy/Documents/WebDev/MasterApp/CodeWars/Pages/CodingChallenges/VowelCount.razor]
+[C:/Users/Cian Liddy/Documents/WebDev/CvApp/CodeWars/Pages/CodingChallenges/VowelCount.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29kaW5nQ2hhbGxlbmdlc1xWb3dlbENvdW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Cian Liddy/Documents/WebDev/MasterApp/CodeWars/Pages/Index.razor]
+[C:/Users/Cian Liddy/Documents/WebDev/CvApp/CodeWars/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Cian Liddy/Documents/WebDev/MasterApp/CodeWars/Pages/Songs.razor]
+[C:/Users/Cian Liddy/Documents/WebDev/CvApp/CodeWars/Pages/Songs.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29uZ3MucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Cian Liddy/Documents/WebDev/MasterApp/CodeWars/_Imports.razor]
+[C:/Users/Cian Liddy/Documents/WebDev/CvApp/CodeWars/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Cian Liddy/Documents/WebDev/MasterApp/CodeWars/Shared/MainLayout.razor]
+[C:/Users/Cian Liddy/Documents/WebDev/CvApp/CodeWars/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-9amhttscvg
 
-[C:/Users/Cian Liddy/Documents/WebDev/MasterApp/CodeWars/Shared/NavMenu.razor]
+[C:/Users/Cian Liddy/Documents/WebDev/CvApp/CodeWars/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-jgfkmnnexy
 
-[C:/Users/Cian Liddy/Documents/WebDev/MasterApp/CodeWars/Pages/Error.cshtml]
+[C:/Users/Cian Liddy/Documents/WebDev/CvApp/CodeWars/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Cian Liddy/Documents/WebDev/MasterApp/CodeWars/Pages/_Host.cshtml]
+[C:/Users/Cian Liddy/Documents/WebDev/CvApp/CodeWars/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Cian Liddy/Documents/WebDev/MasterApp/CodeWars/Pages/_Layout.cshtml]
+[C:/Users/Cian Liddy/Documents/WebDev/CvApp/CodeWars/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

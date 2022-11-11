@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "15sxORFb02f1o/irzXc/ZukjN6qhTcIAvi9ICSm8C0i6T/YBpMLfKJYiTJ90kRQ4ZzFQwiRX7DejwulI1qy8uQ==",
+  "dgSpecHash": "DmdW6TpOT72+AvVJWGKfeW+8RyQ/BNPWqc7/OeFJy0uTFNZjiiDYfAe9wA3o7acFHMpd5GTXRQfU2Vp0oImNVg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\MasterApp\\CodeWars\\CodeWars.csproj",
+  "projectFilePath": "C:\\Users\\Cian Liddy\\Documents\\WebDev\\CvApp\\CodeWars\\CodeWars.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cian Liddy\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Cian Liddy\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
