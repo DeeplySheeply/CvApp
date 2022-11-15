@@ -1,0 +1,76 @@
+﻿@page "/spoonerize"
+
+@*Title and short introduction*@
+<h3>Spoonerize</h3>
+<p>This is a coding challenge from the Code Wars website</p>
+<p>
+    <a href="https://www.codewars.com/kata/56b8903933dbe5831e000c76/train/csharp">
+        https://www.codewars.com/kata/56b8903933dbe5831e000c76/train/csharp
+    </a>
+</p>
+
+@*Description of the challenge*@
+
+<p>
+    A spoonerism is a spoken phrase in which the first letters of two of the words are swapped around, often with amusing results.
+    <br><br>
+    In its most basic form a spoonerism is a two word phrase in which only the first letters of each word are swapped:"not picking" --> "pot nicking"
+    <br><br>
+    Your task is to create a function that takes a string of two words, separated by a space: words and returns a spoonerism of those words in a string, as in the above example.
+    <br><br>
+    A "word" in the context of this kata can contain any of the letters A through Z in upper or lower case, and the numbers 0 to 9. Though spoonerisms are about letters in words in the domain of written and spoken language, numbers are included in the inputs for the random test cases and they require no special treatment.
+    <br><br>
+    NOTE: All input strings must contain only two words.
+</p>
+
+@*First row for string entry*@
+<div class="row">
+    <div class="col-sm-4">
+        <input placeholder="Spoonerize words" @bind="a" />
+    </div>
+</div>
+<br>
+
+@*Second row for the button*@
+<div class="row">
+    <div class="col-sm-4">
+        <button @onclick="SpoonerizeMethod" class="btn btn-primary">Click to solve the challenge </button>
+    </div>
+</div>
+<br>
+
+@*Third row for results*@
+<div class="row">
+    <div class="col-sm-4">
+        <input readonly @bind="finalResult" />
+    </div>
+</div>
+
+@*Final paragraph for link to the source code*@
+<br>
+<p>To view the source code for this challenge please navigate to <a href="" target="_blank"></a></p>
+
+@code {
+
+    // Global variables
+    string a = "";
+    string finalResult = "";
+
+    private void SpoonerizeMethod()
+    {
+        // Capture letters as variables 
+        string[] store = a.Split(' ');
+        string tempOne = store[0];
+        string tempTwo = store[1];        
+        char letterOne = tempOne[0];
+        char letterTwo = tempTwo[0];      
+
+        // Swap the letters to the relevant positions
+        tempOne = letterTwo + tempOne.Remove(0, 1);
+        tempTwo = letterOne + tempTwo.Remove(0, 1);
+
+        finalResult = tempOne + " " + tempTwo;
+
+    }
+
+}
