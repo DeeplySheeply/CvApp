@@ -24,6 +24,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29kaW5nQ2hhbGxlbmdlc1xDb2RpbmdDaGFsbGVuZ2VIb21lcGFnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Cian Liddy/Documents/WebDev/CvApp/CodeWars/Pages/CodingChallenges/NextPalindromicNo.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29kaW5nQ2hhbGxlbmdlc1xOZXh0UGFsaW5kcm9taWNOby5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Cian Liddy/Documents/WebDev/CvApp/CodeWars/Pages/CodingChallenges/ShorterReverseLonger.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29kaW5nQ2hhbGxlbmdlc1xTaG9ydGVyUmV2ZXJzZUxvbmdlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -34,6 +38,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Cian Liddy/Documents/WebDev/CvApp/CodeWars/Pages/CodingChallenges/VowelCount.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29kaW5nQ2hhbGxlbmdlc1xWb3dlbENvdW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Cian Liddy/Documents/WebDev/CvApp/CodeWars/Pages/DisplayNumber.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGlzcGxheU51bWJlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Cian Liddy/Documents/WebDev/CvApp/CodeWars/Pages/Example1.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXhhbXBsZTEucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Cian Liddy/Documents/WebDev/CvApp/CodeWars/Pages/Index.razor]

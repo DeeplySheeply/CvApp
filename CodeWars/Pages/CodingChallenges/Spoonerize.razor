@@ -10,7 +10,6 @@
 </p>
 
 @*Description of the challenge*@
-
 <p>
     A spoonerism is a spoken phrase in which the first letters of two of the words are swapped around, often with amusing results.
     <br><br>
@@ -20,13 +19,13 @@
     <br><br>
     A "word" in the context of this kata can contain any of the letters A through Z in upper or lower case, and the numbers 0 to 9. Though spoonerisms are about letters in words in the domain of written and spoken language, numbers are included in the inputs for the random test cases and they require no special treatment.
     <br><br>
-    NOTE: All input strings must contain only two words.
+    <b>NOTE: All input strings must contain only two words separated by a space. For example "This word"</b>
 </p>
 
 @*First row for string entry*@
 <div class="row">
     <div class="col-sm-4">
-        <input placeholder="Spoonerize words" @bind="a" />
+        <input style="width: 400px" type="text" placeholder="Enter your words here" @bind="str" />
     </div>
 </div>
 <br>
@@ -34,7 +33,7 @@
 @*Second row for the button*@
 <div class="row">
     <div class="col-sm-4">
-        <button @onclick="SpoonerizeMethod" class="btn btn-primary">Click to solve the challenge </button>
+        <button style="width: 400px"  @onclick="SpoonerizeMethod" class="btn btn-primary">Click to solve the challenge </button>
     </div>
 </div>
 <br>
@@ -42,35 +41,43 @@
 @*Third row for results*@
 <div class="row">
     <div class="col-sm-4">
-        <input readonly @bind="finalResult" />
+        <input style="width: 400px" readonly @bind="finalResult" />
     </div>
 </div>
 
 @*Final paragraph for link to the source code*@
 <br>
-<p>To view the source code for this challenge please navigate to <a href="" target="_blank"></a></p>
+<p><b>To view the source code for this challenge please visit: </b> <a href="https://github.com/DeeplySheeply/CvApp/blob/master/CodeWars/Pages/CodingChallenges/Spoonerize.razor" target="_blank">https://github.com/DeeplySheeply/CvApp/blob/master/CodeWars/Pages/CodingChallenges/Spoonerize.razor</a></p>
 
 @code {
 
     // Global variables
-    string a = "";
+    string str = "";
+    // This string will store the output of the end result
     string finalResult = "";
 
     private void SpoonerizeMethod()
     {
-        // Capture letters as variables 
-        string[] store = a.Split(' ');
-        string tempOne = store[0];
-        string tempTwo = store[1];        
-        char letterOne = tempOne[0];
-        char letterTwo = tempTwo[0];      
+        str = str.Trim();
+        string[] store = str.Split(' ');
 
-        // Swap the letters to the relevant positions
-        tempOne = letterTwo + tempOne.Remove(0, 1);
-        tempTwo = letterOne + tempTwo.Remove(0, 1);
+        if (store.Length == 2)
+        {
+            string tempOne = store[0];
+            string tempTwo = store[1];
+            char letterOne = tempOne[0];
+            char letterTwo = tempTwo[0];
 
-        finalResult = tempOne + " " + tempTwo;
+            // Swap the letters to the relevant positions
+            tempOne = letterTwo + tempOne.Remove(0, 1);
+            tempTwo = letterOne + tempTwo.Remove(0, 1);
 
+            finalResult = tempOne + " " + tempTwo;
+        }
+        else
+        {
+            finalResult = "Please input two words only";
+        }
     }
-
+}
 }

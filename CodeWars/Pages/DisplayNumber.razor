@@ -1,0 +1,14 @@
+﻿<div>@Number</div>
+
+@code {
+    [Parameter] public int Number { get; set; }
+
+    protected override void OnParametersSet()
+    {
+        if (Number < 1)
+        {
+            throw new ApplicationException("The number must be positive");
+        }
+    }
+
+}

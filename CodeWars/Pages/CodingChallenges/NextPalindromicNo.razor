@@ -1,0 +1,97 @@
+﻿@page "/nextpalindromicnumber"
+@using System;
+@using System.Text;
+@using CodeWars.LocalHelperMethods.StringBuilderLocal;
+
+@*Title and short introduction*@
+<h3>Next Palindromic Number</h3>
+<p>
+    This is a coding challenge from the Code Wars website: <a href="https://www.codewars.com/kata/56a6ce697c05fb4667000029">
+        https://www.codewars.com/kata/56a6ce697c05fb4667000029
+    </a>
+</p>
+
+@*Description of the challenge*@
+<p>
+    This app output the next palindromic integer higher than the user's input.
+    <br><br>
+    For a description of palindromic numbers please see <a href="https://mathworld.wolfram.com/PalindromicNumber.html">Wolfram Mathworld</a>.
+    <br><br>
+    Negative number inputs will be treated as positive.
+    <br><br>
+    The largest palindromic int in the C# language is 2,147,447,412. The app will not process a value higher than this.
+    <br><br>
+    <b>Some examples:</b> An input of 11 returns 22, an input of 188 returns 191 and an input of 191 will return 202.
+    <br><br>
+</p>
+
+@*First row for number entry*@
+<div class="row">
+    <div class="col-sm-4">
+        <input style="width: 400px" type="text" placeholder="Enter your number here" @bind="str" />
+    </div>
+</div>
+<br>
+
+@*Second row for the button*@
+<div class="row">
+    <div class="col-sm-4">
+        <button style="width: 400px" @onclick="NextPal" class="btn btn-primary">Click for next palindromic number </button>
+    </div>
+</div>
+<br>
+
+@*Third row for results*@
+<div class="row">
+    <div class="col-sm-4">
+        <input style="width: 400px" readonly @bind="finalResult" />
+    </div>
+</div>
+<br>
+
+
+
+
+
+@code {
+    string str;
+    string finalResult;
+    int val;
+
+    private void NextPal()
+    {
+        if (int.TryParse(str, out val))
+        {
+            if (val >= 2147447412)
+            {
+                finalResult = "Please enter a value less than 2147447412";
+            }
+            if (val < 0)
+            {
+                val = val * (-1);
+            }
+
+            StringBuilder valStringB1 = new StringBuilder(str);
+            StringBuilder valStringBReversed = new StringBuilder();
+
+            for (int i = val; i < int.MaxValue - 1; i++)
+            {
+                valStringB1.Append(i.ToString());
+                valStringBReversed.Append(i.ToString());
+                valStringBReversed = StringBManipulation.ReverseStringB(valStringBReversed);
+                if (valStringB1.Equals(valStringBReversed))
+                {
+                    finalResult = valStringB1.ToString();
+                    break;
+                }
+                valStringB1.Clear();
+                valStringBReversed.Clear();
+            }
+        }
+        else
+        {
+            finalResult = "Please enter only a single numeric value";
+        }
+    }
+
+}
